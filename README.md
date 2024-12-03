@@ -11,12 +11,7 @@ The project includes two main components:
    - The preprocessed and cleaned dataset used for model training.
    - Jupyter notebook for training and evaluating the ML model.
    - The trained model weights after completing the training process.
-  
-2. **Feature Extraction (TF-IDF) Folder**  
-   - Files containing the transformed features using TF-IDF.
-   - The preprocessed tokenizer or transformer object used in feature extraction (Pickle/PKL).
-
-3. **Recommendation System Folder**  
+2. **Recommendation System Folder**  
    - Jupyter notebook used for generating personalized activity recommendations based on the user's mood (using the GRU Model).
    - Contains predefined mood-to-activity mappings with suggestions for different moods and times of day (JSON.file).
 
