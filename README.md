@@ -1,2 +1,2 @@
 # Emotus-ML-Model
-Repository for Machine Learning models and scripts used in the Emotus Mood and Mental Wellness app. This includes mood classification models, dataset and a recommendation system.
+Repository for Machine Learning models includes mood classification models, dataset and a recommendation system.
