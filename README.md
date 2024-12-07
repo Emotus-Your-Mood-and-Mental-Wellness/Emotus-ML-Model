@@ -49,7 +49,7 @@ To mitigate the effects of class imbalance, specific techniques were employed du
    - Jupyter notebook used for generating personalized activity recommendations based on the user's mood (using the GRU Model).
    - Contains predefined mood-to-activity mappings with suggestions for different moods and times of day (JSON.file).
      
-## Model Classification
+### Model Classification
 - The Classification model uses text input to classify the user's mood into one of five categories: **Anger**, **Happy**, **Sadness**, **Fear**, **Love**.
 - The model is trained using the TF-IDF features extracted from the preprocessed dataset, which represents the text in a numerical format for model input.
 - The model is implemented using TensorFlow with GRU (Gated Recurrent Unit) architecture, which is suitable for processing sequential data like text.
@@ -57,7 +57,7 @@ To mitigate the effects of class imbalance, specific techniques were employed du
 - The model's performance is evaluated using accuracy, precision, recall, and F1-score for each class.
 - The model has been fine-tuned to ensure reliable classification across all five classes, especially for the minority classes.
 
-## Recommendation System Details
+### Recommendation System Details
 The Mood-Based Recommendation System suggests activities to users based on their classified mood (Anger, Happy, Sadness, Fear, Love).
 Recommendations are categorized into three mood levels:
   - **High Mood**: Activities for users in a positive or energetic mood
