@@ -41,7 +41,7 @@ To mitigate the effects of class imbalance, specific techniques were employed du
 
 
 
-## Project Structure
+## Project File Structure
 1. **ML Classification Model Folder**  
    - The preprocessed and cleaned dataset used for model training.
    - Jupyter notebook for training and evaluating the ML model.
