@@ -29,13 +29,14 @@ The dataset has the following class distribution, represented as percentages of 
 
 Sample entries from the dataset:
 
-| Label   | Refined Tweet                     |
-|---------|-----------------------------------|
-| Anger   | "kesal banget hari ini gak karuan"|
-| Happy   | "seneng banget dapat kabar baik"  |
-| Sadness | "sedih rasanya kehilangan dia"    |
-| Fear    | "takut banget ngeliat berita itu" |
-| Love    | "cinta ini tak akan pernah padam" |
+| Label   | Tweet                                                                                                                                     | Refined Tweet                                                                                                                      | Text Length |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| **Fear**   | begitu takut masalah soalnya takut didenda dikarenakan rasa ketidak tauanhahahahasatu untuk pph cabang tetap dilapor npwp cabang kan ppn dipusatkan benar kan pph nya tetap lapor npwp cab | begitu takut masalah soalnya takut didenda dikarenakan rasa ketidak tauanhahahahasatu pph cabang tetap dilapor npwp cabang ppn dipusatkan benar pph tetap lapor npwp cab | 168         |
+| **Sadness**| tahu urang paling lemah kalau berhadapan sama si nadia sayang sekali tidak tolak maunya bocah satu nad im gon na miss you so badly       | urang paling lemah berhadapan si nadia sayang sekali tolak maunya bocah satu nad im gon na miss you so badly                     | 108         |
+| **Love**   | berasa stalker abis cari tahu se pendiem cari tahu mantannya cari tahu latar belakangnya ikuti dia sampai rumahnya kenalan samaa nyokapnya bikinin bekel beliin oreo beliin susu i serach and give all he cintad memang seagresif dulu | berasa stalker cari se pendiem cari mantannya cari latar belakangnya ikuti sampai rumahnya kenalan samaa nyokapnya bikinin bekel beliin oreo beliin susu serach give he cintad seagresif | 184         |
+| **Anger**  | buat story ig tulisan stay with me pegangan tangan baaahhhh lama kemudian cocot netizen berbondong menyerbu diriku mengata ngatai seakan tahu segalanya | story ig tulisan stay with me pegangan tangan baaahhhh lama kemudian cocot netizen berbondong menyerbu diriku mengata ngatai seakan segalanya | 141         |
+| **Happy**  | dikampung mana ngerti gopay teh udahlah beli amplop lebaran luculucu isiin duit baru paling bener | dikampung mana ngerti gopay teh udahlah beli amplop lebaran luculucu isiin duit paling bener | 92          |
+
 
 To mitigate the effects of class imbalance, specific techniques were employed during the feature extraction and model training processes. During model training, strategies such as using class weights to give higher importance to minority classes like **fear** and **love**, helping the model learn from limited data for these labels.
 
