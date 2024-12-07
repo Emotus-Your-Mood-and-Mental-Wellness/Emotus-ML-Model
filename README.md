@@ -8,7 +8,7 @@ The project includes two main components:
 
 ## About Dataset
 
-The dataset used in this project contains user input texts (tweets) labeled into five distinct mood categories. This dataset was specifically chosen because it focuses on text data written in **Indonesian**, making it highly relevant for the project's target audience. It captures diverse emotional expressions commonly found in social media posts, providing a realistic and practical foundation for building a mood-based journaling and recommendation system.
+The dataset used in this project contains user input texts (tweets) labeled into five distinct mood categories. This dataset was specifically chosen because it focuses on text data written in **Indonesian**, making it highly relevant for the project's target audience. It captures diverse emotional expressions commonly found in social media posts, providing a realistic and practical foundation for building a mood-based journaling and recommendation system. Informal text, slang, and diverse emotional expressions are common in social media, making the dataset both challenging and practical for real-world applications. Working with Indonesian text highlights the need for tailored text preprocessing techniques, such as stemming using the Sastrawi library and removing stopwords common in Bahasa Indonesia.
 
 - **Total Samples:** 4401
 - **Columns:**
@@ -36,6 +36,10 @@ Sample entries from the dataset:
 | Sadness | "sedih rasanya kehilangan dia"    |
 | Fear    | "takut banget ngeliat berita itu" |
 | Love    | "cinta ini tak akan pernah padam" |
+
+### Addressing Class Imbalance
+To mitigate the effects of class imbalance, specific techniques were employed during the feature extraction and model training processes. During model training, strategies such as using **class weights** to give higher importance to minority classes like **fear** and **love**, helping the model learn from limited data for these labels.
+
 
 
 ## Project Structure
