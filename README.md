@@ -53,16 +53,19 @@ To mitigate the effects of class imbalance, specific techniques were employed du
 - The Classification model uses text input to classify the user's mood into one of five categories: **Anger**, **Happy**, **Sadness**, **Fear**, **Love**.
 - The model is trained using the TF-IDF features extracted from the preprocessed dataset, which represents the text in a numerical format for model input.
 - The model is implemented using TensorFlow with GRU (Gated Recurrent Unit) architecture, which is suitable for processing sequential data like text.
+  
 ### Model Performance
 - The model's performance is evaluated using accuracy, precision, recall, and F1-score for each class.
-- The model has been fine-tuned to ensure reliable classification across all five classes, especially for the minority classes.
-
+- The model achieved an overall accuracy of approximately **65%**, indicating decent performance.
+- Efforts have been made to improve classification reliability, with particular focus on addressing challenges posed by the minority classes.
+  
 ### Recommendation System Details
 The Mood-Based Recommendation System suggests activities to users based on their classified mood (Anger, Happy, Sadness, Fear, Love).
 Recommendations are categorized into three mood levels:
   - **High Mood**: Activities for users in a positive or energetic mood
   - **Medium Mood**: Activities for users in a neutral mood 
   - **Low Mood**: Activities for users in a low energy or stressed mood
+    
 ### Recommendation Process
 1. The user's mood is classified using the Mood Classification Model.
 2. Based on the mood classification, appropriate activity suggestions are retrieved from the recommendations.json file.
