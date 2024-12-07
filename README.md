@@ -8,7 +8,7 @@ The project includes two main components:
 
 ## About Dataset
 
-The dataset used in this project contains user input texts (tweets) labeled into five distinct mood categories. Below is the breakdown of the dataset:
+The dataset used in this project contains user input texts (tweets) labeled into five distinct mood categories.
 
 - **Total Samples:** 4401
 - **Columns:**
