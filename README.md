@@ -60,10 +60,10 @@ To mitigate the effects of class imbalance, specific techniques were employed du
   
 ### Recommendation System Details
 The Mood-Based Recommendation System suggests activities to users based on their classified mood (Anger, Happy, Sadness, Fear, Love).
-Recommendations are categorized into three mood levels:
-  - **High Mood**: Activities for users in a positive or energetic mood
-  - **Medium Mood**: Activities for users in a neutral mood 
-  - **Low Mood**: Activities for users in a low energy or stressed mood
+Recommendations are categorized into three stress levels:
+  - **Low Stress**: Activities for users in a positive or relaxed mood
+  - **Medium Stress**: Activities for users in a neutral or moderately stressed mood
+  - **High Stress**: Activities for users experiencing high levels of stress or anxiety
     
 ### Recommendation Process
 1. The user's mood is classified using the Mood Classification Model.
