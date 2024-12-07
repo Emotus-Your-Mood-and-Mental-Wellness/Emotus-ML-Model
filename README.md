@@ -10,7 +10,6 @@ The project includes two main components:
 1. **ML Classification Model Folder**  
    - The preprocessed and cleaned dataset used for model training.
    - Jupyter notebook for training and evaluating the ML model.
-   - The trained model weights after completing the training process.
 2. **Recommendation System Folder**  
    - Jupyter notebook used for generating personalized activity recommendations based on the user's mood (using the GRU Model).
    - Contains predefined mood-to-activity mappings with suggestions for different moods and times of day (JSON.file).
