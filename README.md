@@ -55,7 +55,6 @@ To mitigate the effects of class imbalance, specific techniques were employed du
 - The model is implemented using TensorFlow with GRU (Gated Recurrent Unit) architecture, which is suitable for processing sequential data like text.
   
 ### Model Performance
-- The model's performance is evaluated using accuracy, precision, recall, and F1-score for each class.
 - The model achieved an overall accuracy of approximately **65%**, indicating decent performance.
 - Efforts have been made to improve classification reliability, with particular focus on addressing challenges posed by the minority classes.
   
