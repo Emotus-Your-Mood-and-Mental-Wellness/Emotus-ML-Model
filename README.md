@@ -8,7 +8,7 @@ The project includes two main components:
 
 ## About Dataset
 
-The dataset used in this project contains user input texts (tweets) labeled into five distinct mood categories.
+The dataset used in this project contains user input texts (tweets) labeled into five distinct mood categories. This dataset was specifically chosen because it focuses on text data written in **Indonesian**, making it highly relevant for the project's target audience. It captures diverse emotional expressions commonly found in social media posts, providing a realistic and practical foundation for building a mood-based journaling and recommendation system.
 
 - **Total Samples:** 4401
 - **Columns:**
