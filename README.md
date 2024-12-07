@@ -16,7 +16,6 @@ The dataset used in this project contains user input texts (tweets) labeled into
   - **`tweet`**: The original user input text.
   - **`refined_tweet`**: The preprocessed version of the user input text, used for feature extraction and modeling.
 
-### Class Distribution
 The dataset has the following class distribution, represented as percentages of the total dataset:
 
 | Label   | Proportion (%) |
