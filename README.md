@@ -37,8 +37,7 @@ Sample entries from the dataset:
 | Fear    | "takut banget ngeliat berita itu" |
 | Love    | "cinta ini tak akan pernah padam" |
 
-### Addressing Class Imbalance
-To mitigate the effects of class imbalance, specific techniques were employed during the feature extraction and model training processes. During model training, strategies such as using **class weights** to give higher importance to minority classes like **fear** and **love**, helping the model learn from limited data for these labels.
+To mitigate the effects of class imbalance, specific techniques were employed during the feature extraction and model training processes. During model training, strategies such as using class weights to give higher importance to minority classes like **fear** and **love**, helping the model learn from limited data for these labels.
 
 
 
