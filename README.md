@@ -6,6 +6,38 @@ The project includes two main components:
 1. A machine learning model that classifies user mood from text input into five categories: **Anger**, **Happy**, **Sadness**, **Fear**, and **Love**.
 2. A system that suggests personalized activities based on the user's classified mood.
 
+## About Dataset
+
+The dataset used in this project contains user input texts (tweets) labeled into five distinct mood categories. Below is the breakdown of the dataset:
+
+- **Total Samples:** 4401
+- **Columns:**
+  - **`label`**: The mood category for the text (anger, happy, sadness, fear, love).
+  - **`tweet`**: The original user input text.
+  - **`refined_tweet`**: The preprocessed version of the user input text, used for feature extraction and modeling.
+
+### Class Distribution
+The dataset has the following class distribution, represented as percentages of the total dataset:
+
+| Label   | Proportion (%) |
+|---------|----------------|
+| Anger   | 25.02         |
+| Happy   | 23.11         |
+| Sadness | 22.65         |
+| Fear    | 14.75         |
+| Love    | 14.47         |
+
+Sample entries from the dataset:
+
+| Label   | Refined Tweet                     |
+|---------|-----------------------------------|
+| Anger   | "kesal banget hari ini gak karuan"|
+| Happy   | "seneng banget dapat kabar baik"  |
+| Sadness | "sedih rasanya kehilangan dia"    |
+| Fear    | "takut banget ngeliat berita itu" |
+| Love    | "cinta ini tak akan pernah padam" |
+
+
 ## Project Structure
 1. **ML Classification Model Folder**  
    - The preprocessed and cleaned dataset used for model training.
