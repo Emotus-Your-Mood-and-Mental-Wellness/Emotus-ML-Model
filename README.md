@@ -60,7 +60,7 @@ To mitigate the effects of class imbalance, specific techniques were employed du
 
 #### Metrics
 
--Accuracy
+- Accuracy
 ### Model Performance
 - The model achieved an overall accuracy of approximately **65%**, indicating decent performance.
 - Efforts have been made to improve classification reliability, focusing on addressing challenges posed by the minority classes.
