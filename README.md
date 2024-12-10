@@ -8,7 +8,7 @@ The project includes two main components:
 
 ## About Dataset
 
-The dataset used in this project contains user input texts (tweets) labeled into five distinct mood categories. This dataset was specifically chosen because it focuses on text data written in **Indonesian**, making it highly relevant for the project's target audience. It captures diverse emotional expressions commonly found in social media posts, providing a realistic and practical foundation for building a mood-based journaling and recommendation system. Informal text, slang, and diverse emotional expressions are common in social media, making the dataset both challenging and practical for real-world applications. Working with Indonesian text highlights the need for tailored text preprocessing techniques, such as stemming using the Sastrawi library and removing stopwords common in Bahasa Indonesia.
+The dataset used in this project contains user input texts (tweets) labeled into five distinct mood categories. This dataset was specifically chosen because it focuses on text data written in **Indonesian**, making it highly relevant to the project's target audience. It captures diverse emotional expressions commonly found in social media posts, providing a realistic and practical foundation for building a mood-based journaling and recommendation system. Informal text, slang, and diverse emotional expressions are common in social media, making the dataset both challenging and practical for real-world applications. Working with Indonesian text highlights the need for tailored text preprocessing techniques, such as stemming using the Sastrawi library and removing stopwords common in Bahasa Indonesia.
 
 - **Total Samples:** 4401
 - **Columns:**
@@ -37,7 +37,7 @@ Sample entries from the dataset:
 | **Happy**  | dikampung mana ngerti gopay teh udahlah beli amplop lebaran luculucu isiin duit baru paling bener | dikampung mana ngerti gopay teh udahlah beli amplop lebaran luculucu isiin duit paling bener | 92          |
 
 
-To mitigate the effects of class imbalance, specific techniques were employed during the feature extraction and model training processes. During model training, strategies such as using class weights to give higher importance to minority classes like **fear** and **love**, helping the model learn from limited data for these labels.
+To mitigate the effects of class imbalance, specific techniques were employed during the feature extraction and model training processes. During model training, strategies such as using class weights to give higher importance to minority classes like **fear** and **love**, help the model learn from limited data for these labels.
 
 
 
@@ -48,15 +48,22 @@ To mitigate the effects of class imbalance, specific techniques were employed du
 2. **Recommendation System Folder**  
    - Jupyter notebook used for generating personalized activity recommendations based on the user's mood (using the GRU Model).
    - Contains predefined mood-to-activity mappings with suggestions for different moods and times of day (JSON.file).
-     
+
+### Limitations
+
+- The model only works well for Indonesian language
 ### Model Classification
 - The Classification model uses text input to classify the user's mood into one of five categories: **Anger**, **Happy**, **Sadness**, **Fear**, **Love**.
-- The model is trained using the TF-IDF features extracted from the preprocessed dataset, which represents the text in a numerical format for model input.
+- The model is trained using the TF-IDF features extracted from the preprocessed dataset, representing the text in a numerical format for model input.
 - The model is implemented using TensorFlow with GRU (Gated Recurrent Unit) architecture, which is suitable for processing sequential data like text.
-  
+### Evaluation
+
+#### Metrics
+
+-Accuracy
 ### Model Performance
 - The model achieved an overall accuracy of approximately **65%**, indicating decent performance.
-- Efforts have been made to improve classification reliability, with particular focus on addressing challenges posed by the minority classes.
+- Efforts have been made to improve classification reliability, focusing on addressing challenges posed by the minority classes.
   
 ### Recommendation System Details
 The Mood-Based Recommendation System suggests activities to users based on their classified mood (Anger, Happy, Sadness, Fear, Love).
